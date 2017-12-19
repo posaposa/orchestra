@@ -59,16 +59,16 @@ pluralizeListTitles = false
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
 [params.intro]
-  header    = "Hugo Future Imperfect"
+  header    = "ボン・トロンボーン"
 
-  paragraph = "Another fine responsive site template by <a href=\"http://html5up.net\">HTML5 UP</a>. Ported by Julio Pescador with some extra goodies <i class='fa fa-hand-peace-o'></i>"
+  paragraph = "中学からトロンボーンを始めて吹奏楽・オーケストラ・マーチングを経験してきた著者Zuckyがあなたの上達に役立つヒントや練習法を大公開します!!"
 
-  about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
+  about     = "サイトの管理者は都内の大学に通う文系2年生。中高とトロンボーンを吹いてきて、吹奏楽・オーケストラ・マーチング・セクションリーダーなど、楽器を吹く部活の人間としてはほぼ一通りのことをやってきました。その経験を生かして現在はオンライン・オフライン上で今吹奏楽に打ち込んでいる中高生に演奏技術やパート練・合奏に関するヒントや練習法を伝えています。"
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
   [params.intro.pic]
-    src       = "/img/main/logo.jpg"
+    src       = "/img/pbone-green-trombone-c-750.jpg"
     # Sets Image to be a cirlce
     circle    = false
     # Sets Image to be Future Imperfect's hexagon
@@ -82,11 +82,7 @@ pluralizeListTitles = false
 
 # Sets the menu items in the navigation bar
 # Identifier prepends a Font Awesome icon to the menu item
-[[menu.main]]
-  name = "Home"
-  url = "/"
-  identifier = "fa fa-home"
-  weight = 1
+
 
 [[menu.main]]
   name = "About"
@@ -96,21 +92,9 @@ pluralizeListTitles = false
 
 [[menu.main]]
   name = "Blog"
-  url = "/blog/"
+  url = "/"
   identifier = "fa fa-newspaper-o"
-  weight = 3
-
-[[menu.main]]
-  name = "Itemized"
-  url = "/itemized/"
-  identifier = "fa fa-list"
-  weight = 4
-
-[[menu.main]]
-  name = "Categories"
-  url = "/categories/"
-  identifier = "fa fa-sitemap"
-  weight = 5
+  weight = 1
 
 [[menu.main]]
   name = "Contact"
@@ -155,7 +139,7 @@ pluralizeListTitles = false
     qq              = "" # User ID Number
   instagram       = "example"
   tumblr          = ""
-  twitter         = "example"
+  twitter         = "Zucky_posaune"
   skype           = ""
   snapchat        = ""
   pinterest       = "example"
